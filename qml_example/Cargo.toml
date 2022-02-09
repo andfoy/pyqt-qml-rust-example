@@ -1,0 +1,19 @@
+[package]
+name = "qml_example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "qmlpyexample"
+crate-type = ["cdylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+cpp = "0.5.6"
+cstr = "0.2"
+qmetaobject = {version = "0.2.5", features = ["webengine"]}
+qttypes = { version = "0.2.6", features = ["required", "qtquick", "qtwebengine"] }
+
+[build-dependencies]
+cpp_build = "0.5.6"
+semver = "1"

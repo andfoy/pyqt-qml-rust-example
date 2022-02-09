@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.toml": "toml",
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "optional": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp"
+    }
+}
